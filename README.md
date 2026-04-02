@@ -1,6 +1,6 @@
 # National Parks Weather Dashboard
 
-## 📌 Overview
+##  Overview
 This project is a weather dashboard that displays current weather conditions for all U.S. National Parks.
 
 The goal of this project is to demonstrate:
@@ -11,14 +11,14 @@ The goal of this project is to demonstrate:
 
 ---
 
-## 🚀 Features (MVP)
+## Features (MVP)
 - Retrieve list of U.S. National Parks
 - Fetch current weather data for each park
 - Display weather data in a simple format
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Python
 - Requests (API calls)
 - (Planned) FastAPI
