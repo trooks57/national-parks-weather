@@ -85,7 +85,7 @@ def clean_parks_df(df: pd.DataFrame) -> pd.DataFrame:
 # Fetch Weather
 # -----------------------------
 def fetch_weather(lat: float, lon: float) -> dict:
-    if pd.isna(lat) or pd.isna(lon):
+    if pd.isnull(lat) or pd.isnull(lon):
         return {"temperature_f": None, "condition": None}
 
     url = "https://api.weatherapi.com/v1/current.json"
