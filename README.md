@@ -54,10 +54,3 @@ national-parks-weather/
 - Deploy to cloud (Azure)
 
 ---
-
-##  Getting Started
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/yourusername/national-parks-weather.git
-cd national-parks-weather
