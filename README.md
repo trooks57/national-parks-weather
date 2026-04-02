@@ -27,7 +27,7 @@ The goal of this project is to demonstrate:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 national-parks-weather/
 │
@@ -37,3 +37,27 @@ national-parks-weather/
 ├── notebooks/         # optional later (analysis)
 ├── README.md
 ├── requirements.txt
+
+
+---
+
+## 🔌 Data Sources
+- National Park Service API (park locations and metadata)
+- Weather API (current conditions)
+
+---
+
+##  Future Enhancements
+- Store historical weather data
+- Build interactive dashboard (map + filters)
+- Add analytics (temperature trends, best parks to visit)
+- Deploy to cloud (Azure)
+
+---
+
+##  Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/yourusername/national-parks-weather.git
+cd national-parks-weather
