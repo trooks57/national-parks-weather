@@ -28,3 +28,12 @@ The goal of this project is to demonstrate:
 ---
 
 ## 📂 Project Structure
+
+national-parks-weather/
+│
+├── data/              # static or downloaded park data
+├── src/               # your Python code
+│   └── main.py
+├── notebooks/         # optional later (analysis)
+├── README.md
+├── requirements.txt
