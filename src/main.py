@@ -40,11 +40,21 @@ def fetch_national_parks(api_key: str, page_size: int = PAGE_SIZE) -> list:
         for park in parks_batch:
             full_name = park.get("fullName")
             designation = park.get("designation")
+            lat_long_string = park.get("latLong", "")
+            latitude, longitude = None, None
+            
+            if lat_long_string:
+                try:
+                    lat_long_parts = lat_long_string.split(",")
+                    latitude = float(lat_long_parts[0].split(":")[1].strip())
+                    longitude = float(lat_long_parts[1].split(":")[1].strip())
+                except (IndexError, ValueError):
+                    print(f"Warning: Could not parse latLong for {full_name}: '{lat_long_string}'")
             if (
                 (designation and any(k in designation for k in NATIONAL_PARK_KEYWORDS))
                 or ("National Park" in full_name)
             ) and full_name not in EXCLUDE_PARKS:
-                national_parks.append({"fullName": full_name, "designation": designation})
+                national_parks.append({"fullName": full_name, "designation": designation, "latitude": latitude, "longitude": longitude})
 
         # Pagination
         total_parks = int(api_response.get("total", 0))
