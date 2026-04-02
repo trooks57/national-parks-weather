@@ -2,379 +2,316 @@
   {
     "fullName": "Acadia National Park",
     "designation": "National Park",
-    "latitude": 44.409286,
-    "longitude": -68.247501
+    "lat_long": "lat:44.409286,long:-68.247501"
   },
   {
     "fullName": "Arches National Park",
     "designation": "National Park",
-    "latitude": 38.72261844,
-    "longitude": -109.5863666
+    "lat_long": "lat:38.72261844,long:-109.5863666"
   },
   {
     "fullName": "Badlands National Park",
     "designation": "National Park",
-    "latitude": 43.68584846,
-    "longitude": -102.482942
+    "lat_long": "lat:43.68584846,long:-102.482942"
   },
   {
     "fullName": "Big Bend National Park",
     "designation": "National Park",
-    "latitude": 29.29817767,
-    "longitude": -103.2297897
+    "lat_long": "lat:29.29817767,long:-103.2297897"
   },
   {
     "fullName": "Biscayne National Park",
     "designation": "National Park",
-    "latitude": 25.490587,
-    "longitude": -80.21023851
+    "lat_long": "lat:25.490587,long:-80.21023851"
   },
   {
     "fullName": "Black Canyon Of The Gunnison National Park",
     "designation": "National Park",
-    "latitude": 38.57779869,
-    "longitude": -107.7242756
+    "lat_long": "lat:38.57779869,long:-107.7242756"
   },
   {
     "fullName": "Bryce Canyon National Park",
     "designation": "National Park",
-    "latitude": 37.58399144,
-    "longitude": -112.1826689
+    "lat_long": "lat:37.58399144,long:-112.1826689"
   },
   {
     "fullName": "Canyonlands National Park",
     "designation": "National Park",
-    "latitude": 38.24555783,
-    "longitude": -109.8801624
+    "lat_long": "lat:38.24555783,long:-109.8801624"
   },
   {
     "fullName": "Capitol Reef National Park",
     "designation": "National Park",
-    "latitude": 38.2821653131,
-    "longitude": -111.247048378
+    "lat_long": "lat:38.2821653131,long:-111.247048378"
   },
   {
     "fullName": "Carlsbad Caverns National Park",
     "designation": "National Park",
-    "latitude": 32.14089463,
-    "longitude": -104.5529688
+    "lat_long": "lat:32.14089463,long:-104.5529688"
   },
   {
     "fullName": "Channel Islands National Park",
     "designation": "National Park",
-    "latitude": 33.98680093,
-    "longitude": -119.9112735
+    "lat_long": "lat:33.98680093,long:-119.9112735"
   },
   {
     "fullName": "Congaree National Park",
     "designation": "National Park",
-    "latitude": 33.79187523,
-    "longitude": -80.74867805
+    "lat_long": "lat:33.79187523,long:-80.74867805"
   },
   {
     "fullName": "Crater Lake National Park",
     "designation": "National Park",
-    "latitude": 42.94065854,
-    "longitude": -122.1338414
+    "lat_long": "lat:42.94065854,long:-122.1338414"
   },
   {
     "fullName": "Cuyahoga Valley National Park",
     "designation": "National Park",
-    "latitude": 41.26093905,
-    "longitude": -81.57116722
+    "lat_long": "lat:41.26093905,long:-81.57116722"
   },
   {
     "fullName": "Death Valley National Park",
     "designation": "National Park",
-    "latitude": 36.48753731,
-    "longitude": -117.134395
+    "lat_long": "lat:36.48753731,long:-117.134395"
   },
   {
     "fullName": "Denali National Park & Preserve",
     "designation": "National Park & Preserve",
-    "latitude": 63.29777484,
-    "longitude": -151.0526568
+    "lat_long": "lat:63.29777484,long:-151.0526568"
   },
   {
     "fullName": "Dry Tortugas National Park",
     "designation": "National Park",
-    "latitude": 24.628741,
-    "longitude": -82.87319
+    "lat_long": "lat:24.628741,long:-82.87319"
   },
   {
     "fullName": "Everglades National Park",
     "designation": "National Park",
-    "latitude": 25.37294225,
-    "longitude": -80.88200301
+    "lat_long": "lat:25.37294225,long:-80.88200301"
   },
   {
     "fullName": "Gates Of The Arctic National Park & Preserve",
     "designation": "National Park & Preserve",
-    "latitude": 67.75961636,
-    "longitude": -153.2917758
+    "lat_long": "lat:67.75961636,long:-153.2917758"
   },
   {
     "fullName": "Gateway Arch National Park",
     "designation": "National Park",
-    "latitude": 38.6258069,
-    "longitude": -90.1892508
+    "lat_long": "lat:38.6258069,long:-90.1892508"
   },
   {
     "fullName": "Glacier Bay National Park & Preserve",
     "designation": "National Park & Preserve",
-    "latitude": 58.80086718,
-    "longitude": -136.8407579
+    "lat_long": "lat:58.80086718,long:-136.8407579"
   },
   {
     "fullName": "Glacier National Park",
     "designation": "National Park",
-    "latitude": 48.68414678,
-    "longitude": -113.8009306
+    "lat_long": "lat:48.68414678,long:-113.8009306"
   },
   {
     "fullName": "Grand Canyon National Park",
     "designation": "National Park",
-    "latitude": 36.0001165336,
-    "longitude": -112.121516363
+    "lat_long": "lat:36.0001165336,long:-112.121516363"
   },
   {
     "fullName": "Grand Teton National Park",
     "designation": "National Park",
-    "latitude": 43.81853565,
-    "longitude": -110.7054666
+    "lat_long": "lat:43.81853565,long:-110.7054666"
   },
   {
     "fullName": "Great Basin National Park",
     "designation": "National Park",
-    "latitude": 38.94617378,
-    "longitude": -114.2579782
+    "lat_long": "lat:38.94617378,long:-114.2579782"
   },
   {
     "fullName": "Great Sand Dunes National Park & Preserve",
     "designation": "National Park & Preserve",
-    "latitude": 37.79256812,
-    "longitude": -105.5919572
+    "lat_long": "lat:37.79256812,long:-105.5919572"
   },
   {
     "fullName": "Great Smoky Mountains National Park",
     "designation": "National Park",
-    "latitude": 35.60116374,
-    "longitude": -83.50818326
+    "lat_long": "lat:35.60116374,long:-83.50818326"
   },
   {
     "fullName": "Guadalupe Mountains National Park",
     "designation": "National Park",
-    "latitude": 31.92304462,
-    "longitude": -104.885527
+    "lat_long": "lat:31.92304462,long:-104.885527"
   },
   {
     "fullName": "Haleakal\u0101 National Park",
     "designation": "National Park",
-    "latitude": 20.70693015,
-    "longitude": -156.1591775
+    "lat_long": "lat:20.70693015,long:-156.1591775"
   },
   {
     "fullName": "Hawai\u02bbi Volcanoes National Park",
     "designation": "National Park",
-    "latitude": 19.3355036,
-    "longitude": -155.4700257
+    "lat_long": "lat:19.3355036,long:-155.4700257"
   },
   {
     "fullName": "Hot Springs National Park",
     "designation": "National Park",
-    "latitude": 34.52414366,
-    "longitude": -93.06332936
+    "lat_long": "lat:34.52414366,long:-93.06332936"
   },
   {
     "fullName": "Indiana Dunes National Park",
     "designation": "National Park",
-    "latitude": 41.63765525,
-    "longitude": -87.09647445
+    "lat_long": "lat:41.63765525,long:-87.09647445"
   },
   {
     "fullName": "Isle Royale National Park",
     "designation": "National Park",
-    "latitude": 48.01145819,
-    "longitude": -88.82780657
+    "lat_long": "lat:48.01145819,long:-88.82780657"
   },
   {
     "fullName": "Joshua Tree National Park",
     "designation": "National Park",
-    "latitude": 33.91418525,
-    "longitude": -115.8398125
+    "lat_long": "lat:33.91418525,long:-115.8398125"
   },
   {
     "fullName": "Katmai National Park & Preserve",
     "designation": "National Park & Preserve",
-    "latitude": 58.62235668,
-    "longitude": -155.0126574
+    "lat_long": "lat:58.62235668,long:-155.0126574"
   },
   {
     "fullName": "Kenai Fjords National Park",
     "designation": "National Park",
-    "latitude": 59.81804414,
-    "longitude": -150.106502
+    "lat_long": "lat:59.81804414,long:-150.106502"
   },
   {
     "fullName": "Kobuk Valley National Park",
     "designation": "National Park",
-    "latitude": 67.35631336,
-    "longitude": -159.2002293
+    "lat_long": "lat:67.35631336,long:-159.2002293"
   },
   {
     "fullName": "Lake Clark National Park & Preserve",
     "designation": "National Park & Preserve",
-    "latitude": 60.57405857,
-    "longitude": -153.55535
+    "lat_long": "lat:60.57405857,long:-153.55535"
   },
   {
     "fullName": "Lassen Volcanic National Park",
     "designation": "National Park",
-    "latitude": 40.49354575,
-    "longitude": -121.4075993
+    "lat_long": "lat:40.49354575,long:-121.4075993"
   },
   {
     "fullName": "Mammoth Cave National Park",
     "designation": "National Park",
-    "latitude": 37.19760458,
-    "longitude": -86.13090198
+    "lat_long": "lat:37.19760458,long:-86.13090198"
   },
   {
     "fullName": "Mesa Verde National Park",
     "designation": "National Park",
-    "latitude": 37.23908345,
-    "longitude": -108.4624032
+    "lat_long": "lat:37.23908345,long:-108.4624032"
   },
   {
     "fullName": "Mount Rainier National Park",
     "designation": "National Park",
-    "latitude": 46.86075416,
-    "longitude": -121.7043885
+    "lat_long": "lat:46.86075416,long:-121.7043885"
   },
   {
     "fullName": "National Park of American Samoa",
     "designation": "",
-    "latitude": -14.22865935,
-    "longitude": -169.8503777
+    "lat_long": "lat:-14.22865935,long:-169.8503777"
   },
   {
     "fullName": "New River Gorge National Park & Preserve",
     "designation": "National Park & Preserve",
-    "latitude": 37.86878554,
-    "longitude": -80.99956002
+    "lat_long": "lat:37.86878554,long:-80.99956002"
   },
   {
     "fullName": "North Cascades National Park",
     "designation": "National Park",
-    "latitude": 48.71171756,
-    "longitude": -121.2069423
+    "lat_long": "lat:48.71171756,long:-121.2069423"
   },
   {
     "fullName": "Olympic National Park",
     "designation": "National Park",
-    "latitude": 47.80392754,
-    "longitude": -123.6663848
+    "lat_long": "lat:47.80392754,long:-123.6663848"
   },
   {
     "fullName": "Petrified Forest National Park",
     "designation": "National Park",
-    "latitude": 34.98387664,
-    "longitude": -109.7877678
+    "lat_long": "lat:34.98387664,long:-109.7877678"
   },
   {
     "fullName": "Pinnacles National Park",
     "designation": "National Park",
-    "latitude": 36.49029208,
-    "longitude": -121.1813607
+    "lat_long": "lat:36.49029208,long:-121.1813607"
   },
   {
     "fullName": "Redwood National and State Parks",
     "designation": "National and State Parks",
-    "latitude": 41.37237268,
-    "longitude": -124.0318129
+    "lat_long": "lat:41.37237268,long:-124.0318129"
   },
   {
     "fullName": "Rocky Mountain National Park",
     "designation": "National Park",
-    "latitude": 40.3556924,
-    "longitude": -105.6972879
+    "lat_long": "lat:40.3556924,long:-105.6972879"
   },
   {
     "fullName": "Saguaro National Park",
     "designation": "National Park",
-    "latitude": 32.20909636,
-    "longitude": -110.7574974
+    "lat_long": "lat:32.20909636,long:-110.7574974"
   },
   {
     "fullName": "Sequoia & Kings Canyon National Parks",
     "designation": "National Parks",
-    "latitude": 36.71277299,
-    "longitude": -118.587429
+    "lat_long": "lat:36.71277299,long:-118.587429"
   },
   {
     "fullName": "Shenandoah National Park",
     "designation": "National Park",
-    "latitude": 38.49236644,
-    "longitude": -78.46907715
+    "lat_long": "lat:38.49236644,long:-78.46907715"
   },
   {
     "fullName": "Theodore Roosevelt National Park",
     "designation": "National Park",
-    "latitude": 47.17777274,
-    "longitude": -103.4300083
+    "lat_long": "lat:47.17777274,long:-103.4300083"
   },
   {
     "fullName": "Virgin Islands National Park",
     "designation": "National Park",
-    "latitude": 18.34279656,
-    "longitude": -64.74194451
+    "lat_long": "lat:18.34279656,long:-64.74194451"
   },
   {
     "fullName": "Voyageurs National Park",
     "designation": "National Park",
-    "latitude": 48.48370609,
-    "longitude": -92.8382913
+    "lat_long": "lat:48.48370609,long:-92.8382913"
   },
   {
     "fullName": "White Sands National Park",
     "designation": "National Park",
-    "latitude": 32.77907858,
-    "longitude": -106.3333461
+    "lat_long": "lat:32.77907858,long:-106.3333461"
   },
   {
     "fullName": "Wind Cave National Park",
     "designation": "National Park",
-    "latitude": 43.58012365,
-    "longitude": -103.4394709
+    "lat_long": "lat:43.58012365,long:-103.4394709"
   },
   {
     "fullName": "Wolf Trap National Park for the Performing Arts",
     "designation": "",
-    "latitude": 38.93854526,
-    "longitude": -77.265089
+    "lat_long": "lat:38.93854526,long:-77.265089"
   },
   {
     "fullName": "Wrangell - St Elias National Park & Preserve",
     "designation": "National Park & Preserve",
-    "latitude": 61.4182147,
-    "longitude": -142.6028439
+    "lat_long": "lat:61.4182147,long:-142.6028439"
   },
   {
     "fullName": "Yellowstone National Park",
     "designation": "National Park",
-    "latitude": 44.59824417,
-    "longitude": -110.5471695
+    "lat_long": "lat:44.59824417,long:-110.5471695"
   },
   {
     "fullName": "Yosemite National Park",
     "designation": "National Park",
-    "latitude": 37.84883288,
-    "longitude": -119.5571873
+    "lat_long": "lat:37.84883288,long:-119.5571873"
   },
   {
     "fullName": "Zion National Park",
     "designation": "National Park",
-    "latitude": 37.29839254,
-    "longitude": -113.0265138
+    "lat_long": "lat:37.29839254,long:-113.0265138"
   }
 ]

@@ -14,6 +14,7 @@ EXCLUDE_PARKS = ["National Parks of New York Harbor"]
 
 # File paths
 NATIONAL_PARKS_FILE = "data/national_parks.json"
+WEATHER_FILE = "data/national_parks_weather.json"
 
 # API settings
 NPS_API_URL = "https://developer.nps.gov/api/v1/parks"

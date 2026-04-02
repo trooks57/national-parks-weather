@@ -1,0 +1,506 @@
+[
+  {
+    "fullName":"Acadia National Park",
+    "designation":"National Park",
+    "latitude":44.409286,
+    "longitude":-68.247501,
+    "temperature_f":37.0,
+    "condition":"Partly cloudy"
+  },
+  {
+    "fullName":"Arches National Park",
+    "designation":"National Park",
+    "latitude":38.72261844,
+    "longitude":-109.5863666,
+    "temperature_f":69.9,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Badlands National Park",
+    "designation":"National Park",
+    "latitude":43.68584846,
+    "longitude":-102.482942,
+    "temperature_f":39.5,
+    "condition":"Overcast"
+  },
+  {
+    "fullName":"Big Bend National Park",
+    "designation":"National Park",
+    "latitude":29.29817767,
+    "longitude":-103.2297897,
+    "temperature_f":83.9,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Biscayne National Park",
+    "designation":"National Park",
+    "latitude":25.490587,
+    "longitude":-80.21023851,
+    "temperature_f":80.8,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Black Canyon Of The Gunnison National Park",
+    "designation":"National Park",
+    "latitude":38.57779869,
+    "longitude":-107.7242756,
+    "temperature_f":59.7,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Bryce Canyon National Park",
+    "designation":"National Park",
+    "latitude":37.58399144,
+    "longitude":-112.1826689,
+    "temperature_f":50.2,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Canyonlands National Park",
+    "designation":"National Park",
+    "latitude":38.24555783,
+    "longitude":-109.8801624,
+    "temperature_f":50.0,
+    "condition":"Cloudy"
+  },
+  {
+    "fullName":"Capitol Reef National Park",
+    "designation":"National Park",
+    "latitude":38.2821653131,
+    "longitude":-111.247048378,
+    "temperature_f":57.1,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Carlsbad Caverns National Park",
+    "designation":"National Park",
+    "latitude":32.14089463,
+    "longitude":-104.5529688,
+    "temperature_f":78.1,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Channel Islands National Park",
+    "designation":"National Park",
+    "latitude":33.98680093,
+    "longitude":-119.9112735,
+    "temperature_f":64.9,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Congaree National Park",
+    "designation":"National Park",
+    "latitude":33.79187523,
+    "longitude":-80.74867805,
+    "temperature_f":82.6,
+    "condition":"Partly cloudy"
+  },
+  {
+    "fullName":"Crater Lake National Park",
+    "designation":"National Park",
+    "latitude":42.94065854,
+    "longitude":-122.1338414,
+    "temperature_f":28.8,
+    "condition":"Cloudy"
+  },
+  {
+    "fullName":"Cuyahoga Valley National Park",
+    "designation":"National Park",
+    "latitude":41.26093905,
+    "longitude":-81.57116722,
+    "temperature_f":74.3,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Death Valley National Park",
+    "designation":"National Park",
+    "latitude":36.48753731,
+    "longitude":-117.134395,
+    "temperature_f":60.9,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Denali National Park & Preserve",
+    "designation":"National Park & Preserve",
+    "latitude":63.29777484,
+    "longitude":-151.0526568,
+    "temperature_f":13.5,
+    "condition":"Light freezing rain"
+  },
+  {
+    "fullName":"Dry Tortugas National Park",
+    "designation":"National Park",
+    "latitude":24.628741,
+    "longitude":-82.87319,
+    "temperature_f":78.0,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Everglades National Park",
+    "designation":"National Park",
+    "latitude":25.37294225,
+    "longitude":-80.88200301,
+    "temperature_f":81.0,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Gates Of The Arctic National Park & Preserve",
+    "designation":"National Park & Preserve",
+    "latitude":67.75961636,
+    "longitude":-153.2917758,
+    "temperature_f":-1.8,
+    "condition":"Light snow"
+  },
+  {
+    "fullName":"Gateway Arch National Park",
+    "designation":"National Park",
+    "latitude":38.6258069,
+    "longitude":-90.1892508,
+    "temperature_f":75.5,
+    "condition":"Patchy rain nearby"
+  },
+  {
+    "fullName":"Glacier Bay National Park & Preserve",
+    "designation":"National Park & Preserve",
+    "latitude":58.80086718,
+    "longitude":-136.8407579,
+    "temperature_f":35.1,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Glacier National Park",
+    "designation":"National Park",
+    "latitude":48.68414678,
+    "longitude":-113.8009306,
+    "temperature_f":38.9,
+    "condition":"Light snow"
+  },
+  {
+    "fullName":"Grand Canyon National Park",
+    "designation":"National Park",
+    "latitude":36.0001165336,
+    "longitude":-112.121516363,
+    "temperature_f":52.0,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Grand Teton National Park",
+    "designation":"National Park",
+    "latitude":43.81853565,
+    "longitude":-110.7054666,
+    "temperature_f":32.2,
+    "condition":"Light snow"
+  },
+  {
+    "fullName":"Great Basin National Park",
+    "designation":"National Park",
+    "latitude":38.94617378,
+    "longitude":-114.2579782,
+    "temperature_f":48.2,
+    "condition":"Cloudy"
+  },
+  {
+    "fullName":"Great Sand Dunes National Park & Preserve",
+    "designation":"National Park & Preserve",
+    "latitude":37.79256812,
+    "longitude":-105.5919572,
+    "temperature_f":55.8,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Great Smoky Mountains National Park",
+    "designation":"National Park",
+    "latitude":35.60116374,
+    "longitude":-83.50818326,
+    "temperature_f":79.2,
+    "condition":"Partly cloudy"
+  },
+  {
+    "fullName":"Guadalupe Mountains National Park",
+    "designation":"National Park",
+    "latitude":31.92304462,
+    "longitude":-104.885527,
+    "temperature_f":71.4,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Haleakal\u0101 National Park",
+    "designation":"National Park",
+    "latitude":20.70693015,
+    "longitude":-156.1591775,
+    "temperature_f":64.1,
+    "condition":"Patchy rain nearby"
+  },
+  {
+    "fullName":"Hawai\u02bbi Volcanoes National Park",
+    "designation":"National Park",
+    "latitude":19.3355036,
+    "longitude":-155.4700257,
+    "temperature_f":60.0,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Hot Springs National Park",
+    "designation":"National Park",
+    "latitude":34.52414366,
+    "longitude":-93.06332936,
+    "temperature_f":73.0,
+    "condition":"Overcast"
+  },
+  {
+    "fullName":"Indiana Dunes National Park",
+    "designation":"National Park",
+    "latitude":41.63765525,
+    "longitude":-87.09647445,
+    "temperature_f":70.0,
+    "condition":"Overcast"
+  },
+  {
+    "fullName":"Isle Royale National Park",
+    "designation":"National Park",
+    "latitude":48.01145819,
+    "longitude":-88.82780657,
+    "temperature_f":28.4,
+    "condition":"Light snow"
+  },
+  {
+    "fullName":"Joshua Tree National Park",
+    "designation":"National Park",
+    "latitude":33.91418525,
+    "longitude":-115.8398125,
+    "temperature_f":74.1,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Katmai National Park & Preserve",
+    "designation":"National Park & Preserve",
+    "latitude":58.62235668,
+    "longitude":-155.0126574,
+    "temperature_f":21.0,
+    "condition":"Mist"
+  },
+  {
+    "fullName":"Kenai Fjords National Park",
+    "designation":"National Park",
+    "latitude":59.81804414,
+    "longitude":-150.106502,
+    "temperature_f":30.0,
+    "condition":"Partly Cloudy"
+  },
+  {
+    "fullName":"Kobuk Valley National Park",
+    "designation":"National Park",
+    "latitude":67.35631336,
+    "longitude":-159.2002293,
+    "temperature_f":2.9,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Lake Clark National Park & Preserve",
+    "designation":"National Park & Preserve",
+    "latitude":60.57405857,
+    "longitude":-153.55535,
+    "temperature_f":21.0,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Lassen Volcanic National Park",
+    "designation":"National Park",
+    "latitude":40.49354575,
+    "longitude":-121.4075993,
+    "temperature_f":40.9,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Mammoth Cave National Park",
+    "designation":"National Park",
+    "latitude":37.19760458,
+    "longitude":-86.13090198,
+    "temperature_f":79.9,
+    "condition":"Partly cloudy"
+  },
+  {
+    "fullName":"Mesa Verde National Park",
+    "designation":"National Park",
+    "latitude":37.23908345,
+    "longitude":-108.4624032,
+    "temperature_f":55.9,
+    "condition":"Cloudy"
+  },
+  {
+    "fullName":"Mount Rainier National Park",
+    "designation":"National Park",
+    "latitude":46.86075416,
+    "longitude":-121.7043885,
+    "temperature_f":37.9,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"National Park of American Samoa",
+    "designation":"",
+    "latitude":-14.22865935,
+    "longitude":-169.8503777,
+    "temperature_f":81.0,
+    "condition":"Partly Cloudy"
+  },
+  {
+    "fullName":"New River Gorge National Park & Preserve",
+    "designation":"National Park & Preserve",
+    "latitude":37.86878554,
+    "longitude":-80.99956002,
+    "temperature_f":73.0,
+    "condition":"Partly cloudy"
+  },
+  {
+    "fullName":"North Cascades National Park",
+    "designation":"National Park",
+    "latitude":48.71171756,
+    "longitude":-121.2069423,
+    "temperature_f":42.0,
+    "condition":"Partly Cloudy"
+  },
+  {
+    "fullName":"Olympic National Park",
+    "designation":"National Park",
+    "latitude":47.80392754,
+    "longitude":-123.6663848,
+    "temperature_f":30.6,
+    "condition":"Light freezing rain"
+  },
+  {
+    "fullName":"Petrified Forest National Park",
+    "designation":"National Park",
+    "latitude":34.98387664,
+    "longitude":-109.7877678,
+    "temperature_f":65.0,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Pinnacles National Park",
+    "designation":"National Park",
+    "latitude":36.49029208,
+    "longitude":-121.1813607,
+    "temperature_f":49.8,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Redwood National and State Parks",
+    "designation":"National and State Parks",
+    "latitude":41.37237268,
+    "longitude":-124.0318129,
+    "temperature_f":50.2,
+    "condition":"Partly cloudy"
+  },
+  {
+    "fullName":"Rocky Mountain National Park",
+    "designation":"National Park",
+    "latitude":40.3556924,
+    "longitude":-105.6972879,
+    "temperature_f":45.0,
+    "condition":"Overcast"
+  },
+  {
+    "fullName":"Saguaro National Park",
+    "designation":"National Park",
+    "latitude":32.20909636,
+    "longitude":-110.7574974,
+    "temperature_f":75.9,
+    "condition":"Partly cloudy"
+  },
+  {
+    "fullName":"Sequoia & Kings Canyon National Parks",
+    "designation":"National Parks",
+    "latitude":36.71277299,
+    "longitude":-118.587429,
+    "temperature_f":34.6,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Shenandoah National Park",
+    "designation":"National Park",
+    "latitude":38.49236644,
+    "longitude":-78.46907715,
+    "temperature_f":79.0,
+    "condition":"Partly cloudy"
+  },
+  {
+    "fullName":"Theodore Roosevelt National Park",
+    "designation":"National Park",
+    "latitude":47.17777274,
+    "longitude":-103.4300083,
+    "temperature_f":30.9,
+    "condition":"Mist"
+  },
+  {
+    "fullName":"Virgin Islands National Park",
+    "designation":"National Park",
+    "latitude":18.34279656,
+    "longitude":-64.74194451,
+    "temperature_f":77.2,
+    "condition":"Light rain"
+  },
+  {
+    "fullName":"Voyageurs National Park",
+    "designation":"National Park",
+    "latitude":48.48370609,
+    "longitude":-92.8382913,
+    "temperature_f":34.3,
+    "condition":"Light snow"
+  },
+  {
+    "fullName":"White Sands National Park",
+    "designation":"National Park",
+    "latitude":32.77907858,
+    "longitude":-106.3333461,
+    "temperature_f":70.9,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Wind Cave National Park",
+    "designation":"National Park",
+    "latitude":43.58012365,
+    "longitude":-103.4394709,
+    "temperature_f":37.9,
+    "condition":"Overcast"
+  },
+  {
+    "fullName":"Wolf Trap National Park for the Performing Arts",
+    "designation":"",
+    "latitude":38.93854526,
+    "longitude":-77.265089,
+    "temperature_f":57.0,
+    "condition":"Overcast"
+  },
+  {
+    "fullName":"Wrangell - St Elias National Park & Preserve",
+    "designation":"National Park & Preserve",
+    "latitude":61.4182147,
+    "longitude":-142.6028439,
+    "temperature_f":14.9,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Yellowstone National Park",
+    "designation":"National Park",
+    "latitude":44.59824417,
+    "longitude":-110.5471695,
+    "temperature_f":28.9,
+    "condition":"Thundery outbreaks in nearby"
+  },
+  {
+    "fullName":"Yosemite National Park",
+    "designation":"National Park",
+    "latitude":37.84883288,
+    "longitude":-119.5571873,
+    "temperature_f":38.8,
+    "condition":"Sunny"
+  },
+  {
+    "fullName":"Zion National Park",
+    "designation":"National Park",
+    "latitude":37.29839254,
+    "longitude":-113.0265138,
+    "temperature_f":65.3,
+    "condition":"Sunny"
+  }
+]
