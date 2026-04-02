@@ -1,0 +1,20 @@
+# config.py
+
+# Keywords to identify National Parks in API
+NATIONAL_PARK_KEYWORDS = [
+    "National Park",
+    "National Park & Preserve",
+    "National Park and Preserve",
+    "National Parks",             # plural (Sequoia & Kings Canyon)
+    "National and State Parks"    # Redwood
+]
+
+# Parks to explicitly exclude (for strict 63 parks)
+EXCLUDE_PARKS = ["National Parks of New York Harbor"]
+
+# File paths
+NATIONAL_PARKS_FILE = "data/national_parks.json"
+
+# API settings
+NPS_API_URL = "https://developer.nps.gov/api/v1/parks"
+PAGE_SIZE = 100

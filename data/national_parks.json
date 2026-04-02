@@ -1,0 +1,254 @@
+[
+  {
+    "fullName": "Acadia National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Arches National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Badlands National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Big Bend National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Biscayne National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Black Canyon Of The Gunnison National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Bryce Canyon National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Canyonlands National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Capitol Reef National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Carlsbad Caverns National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Channel Islands National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Congaree National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Crater Lake National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Cuyahoga Valley National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Death Valley National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Denali National Park & Preserve",
+    "designation": "National Park & Preserve"
+  },
+  {
+    "fullName": "Dry Tortugas National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Everglades National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Gates Of The Arctic National Park & Preserve",
+    "designation": "National Park & Preserve"
+  },
+  {
+    "fullName": "Gateway Arch National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Glacier Bay National Park & Preserve",
+    "designation": "National Park & Preserve"
+  },
+  {
+    "fullName": "Glacier National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Grand Canyon National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Grand Teton National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Great Basin National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Great Sand Dunes National Park & Preserve",
+    "designation": "National Park & Preserve"
+  },
+  {
+    "fullName": "Great Smoky Mountains National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Guadalupe Mountains National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Haleakal\u0101 National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Hawai\u02bbi Volcanoes National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Hot Springs National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Indiana Dunes National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Isle Royale National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Joshua Tree National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Katmai National Park & Preserve",
+    "designation": "National Park & Preserve"
+  },
+  {
+    "fullName": "Kenai Fjords National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Kobuk Valley National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Lake Clark National Park & Preserve",
+    "designation": "National Park & Preserve"
+  },
+  {
+    "fullName": "Lassen Volcanic National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Mammoth Cave National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Mesa Verde National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Mount Rainier National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "National Park of American Samoa",
+    "designation": ""
+  },
+  {
+    "fullName": "New River Gorge National Park & Preserve",
+    "designation": "National Park & Preserve"
+  },
+  {
+    "fullName": "North Cascades National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Olympic National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Petrified Forest National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Pinnacles National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Redwood National and State Parks",
+    "designation": "National and State Parks"
+  },
+  {
+    "fullName": "Rocky Mountain National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Saguaro National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Sequoia & Kings Canyon National Parks",
+    "designation": "National Parks"
+  },
+  {
+    "fullName": "Shenandoah National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Theodore Roosevelt National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Virgin Islands National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Voyageurs National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "White Sands National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Wind Cave National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Wolf Trap National Park for the Performing Arts",
+    "designation": ""
+  },
+  {
+    "fullName": "Wrangell - St Elias National Park & Preserve",
+    "designation": "National Park & Preserve"
+  },
+  {
+    "fullName": "Yellowstone National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Yosemite National Park",
+    "designation": "National Park"
+  },
+  {
+    "fullName": "Zion National Park",
+    "designation": "National Park"
+  }
+]
