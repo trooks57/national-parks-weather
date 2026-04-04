@@ -6,6 +6,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from config import (
     NPS_API_URL,              # Base URL for National Parks API
+    WEATHER_API_URL,          # Base URL for Weather API
     PAGE_SIZE,                # Number of results per API page
     NATIONAL_PARK_KEYWORDS,   # Keywords to identify National Parks
     EXCLUDE_PARKS,            # Parks to exclude
@@ -15,7 +16,7 @@ from config import (
 # -----------------------------
 # Load environment variables
 # -----------------------------
-load_dotenv()  # Reads .env file into environment
+load_dotenv()  # Reads .env file into environment 
 NPS_API_KEY = os.getenv("NPS_API_KEY")
 WEATHERAPI_KEY = os.getenv("WEATHERAPI_KEY")
 
@@ -31,7 +32,7 @@ def fetch_national_parks_df(api_key: str, page_size: int = PAGE_SIZE) -> pd.Data
 
     while True:
         # Request a page of parks
-        params = {"api_key": api_key, "start": pagination_start, "limit": page_size}
+        params = {"api_key": api_key, "start": pagination_start, "limit": page_size} 
         response = requests.get(NPS_API_URL, params=params)
         data = response.json()
 
@@ -97,8 +98,8 @@ def fetch_weather(lat: float, lon: float) -> dict:
     if pd.isna(lat) or pd.isna(lon): # Skip if lat/lon are missing
         return {}
 
-    url = "https://api.weatherapi.com/v1/current.json" # Endpoint for current weather
-    params = {"key": WEATHERAPI_KEY, "q": f"{lat},{lon}"} # Query by lat/lon
+    url = WEATHER_API_URL # Endpoint for forecasted weather
+    params = {"key": WEATHERAPI_KEY, "q": f"{lat},{lon}", "days": 3} # Query by lat/lon with 3-day forecast
 
     try:
         response = requests.get(url, params=params) # Make API request
