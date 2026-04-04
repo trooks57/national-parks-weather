@@ -20,7 +20,7 @@ NPS_API_KEY = os.getenv("NPS_API_KEY")
 WEATHERAPI_KEY = os.getenv("WEATHERAPI_KEY")
 
 # -----------------------------
-# 1️⃣ Fetch National Parks from NPS API
+# 1️. Fetch National Parks from NPS API
 # -----------------------------
 def fetch_national_parks_df(api_key: str, page_size: int = PAGE_SIZE) -> pd.DataFrame:
     """
@@ -48,7 +48,7 @@ def fetch_national_parks_df(api_key: str, page_size: int = PAGE_SIZE) -> pd.Data
     return df
 
 # -----------------------------
-# 2️⃣ Clean and filter parks
+# 2️. Clean and filter parks
 # -----------------------------
 def clean_parks_df(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -58,7 +58,7 @@ def clean_parks_df(df: pd.DataFrame) -> pd.DataFrame:
     # Filter for National Parks using keywords in designation or fullName
     df = df[
         (
-            df["designation"].str.contains("|".join(NATIONAL_PARK_KEYWORDS), na=False)
+            df["designation"].str.contains("|".join(NATIONAL_PARK_KEYWORDS), na=False) # Match any national park keyword
             | df["fullName"].str.contains("National Park", na=False)
         )
         & ~df["fullName"].isin(EXCLUDE_PARKS)  # Exclude unwanted parks
@@ -81,74 +81,78 @@ def clean_parks_df(df: pd.DataFrame) -> pd.DataFrame:
     df["longitude"] = pd.to_numeric(df["longitude"], errors="coerce")
 
     # Keep only necessary columns
-    df = df[["fullName", "designation", "latitude", "longitude"]]
+    #df = df[["fullName", "designation", "latitude", "longitude"]]
 
     # Reset index for clean DataFrame
     return df.reset_index(drop=True)
 
 # -----------------------------
-# 3️⃣ Fetch weather for each park
+# 3️. Fetch weather for each park
 # -----------------------------
 def fetch_weather(lat: float, lon: float) -> dict:
     """
-    Fetch current weather from WeatherAPI.com for given coordinates.
-    Returns temperature (F) and condition text.
+    Fetch full weather payload from WeatherAPI.com.
+    Returns the entire JSON response.
     """
-    if pd.isna(lat) or pd.isna(lon):  # Skip if coordinates missing
-        return {"temperature_f": None, "condition": None}
+    if pd.isna(lat) or pd.isna(lon): # Skip if lat/lon are missing
+        return {}
 
-    url = "https://api.weatherapi.com/v1/current.json"
-    params = {"key": WEATHERAPI_KEY, "q": f"{lat},{lon}"}
+    url = "https://api.weatherapi.com/v1/current.json" # Endpoint for current weather
+    params = {"key": WEATHERAPI_KEY, "q": f"{lat},{lon}"} # Query by lat/lon
 
     try:
-        response = requests.get(url, params=params)
-        if response.status_code != 200:  # Handle HTTP errors
+        response = requests.get(url, params=params) # Make API request
+        if response.status_code != 200:
             print(f"HTTP Error {response.status_code}: {response.text}")
-            return {"temperature_f": None, "condition": None}
+            return {} # Return empty dict on error instead of raising exception
 
-        data = response.json()
-        if "error" in data:  # Handle API errors
-            print(f"API Error: {data['error']}")
-            return {"temperature_f": None, "condition": None}
+        data = response.json() #
 
-        current = data.get("current", {})
-        return {
-            "temperature_f": current.get("temp_f"),
-            "condition": current.get("condition", {}).get("text")
-        }
+        if "error" in data:
+            print(f"API Error: {data['error']}") # Log API error message
+            return {} # Return empty dict on API error instead of raising exception
 
-    except Exception as e:  # Catch unexpected exceptions
+        return data  # Return full JSON response for flexibility in analysis
+
+    except Exception as e:
         print(f"Error fetching weather for {lat},{lon}: {e}")
-        return {"temperature_f": None, "condition": None}
+        return {}
 
 # -----------------------------
-# 4️⃣ Add weather to DataFrame
+# 4️. Add weather to DataFrame
 # -----------------------------
 def add_weather_to_df(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Loops through parks and fetches weather for each.
-    Adds temperature_f and condition columns.
+    Fetch full weather data and merge into DataFrame.
     """
-    temperatures = []
-    conditions = []
+    weather_rows = [] # List to hold weather data for each park
 
-    for _, row in df.iterrows():  # Loop row by row
+    for _, row in df.iterrows():
         lat = row["latitude"]
         lon = row["longitude"]
 
         print(f"Fetching weather for {row['fullName']} → {lat},{lon}")
-        weather = fetch_weather(lat, lon)
-        temperatures.append(weather["temperature_f"])
-        conditions.append(weather["condition"])
-        time.sleep(1)  # Prevent API rate limiting
+        weather_json = fetch_weather(lat, lon) # Get full weather JSON for this park
 
-    # Add new columns to DataFrame
-    df["temperature_f"] = temperatures
-    df["condition"] = conditions
+        # Flatten JSON into single row
+        if weather_json:
+            flat = pd.json_normalize(weather_json) # Flatten nested JSON into a single row DataFrame
+        else:
+            flat = pd.DataFrame([{}]) # Empty row if no weather data
+
+        weather_rows.append(flat) # Add this park's weather data to the list
+        time.sleep(1) # Sleep to respect API rate limits (adjust as needed)
+
+    # Combine all weather rows
+    weather_df = pd.concat(weather_rows, ignore_index=True) # Combine list of DataFrames into one DataFrame
+
+    # Merge with original df
+    df = pd.concat([df.reset_index(drop=True), weather_df], axis=1) # Combine original park data with weather data side by side
+
     return df
 
 # -----------------------------
-# 5️⃣ Main pipeline
+# 5️. Main pipeline
 # -----------------------------
 def main():
     # Check for keys
@@ -162,11 +166,11 @@ def main():
     df = add_weather_to_df(df)
 
     # Save to JSON
-    df.to_json(WEATHER_FILE, orient="records", indent=2)
+    df.to_json(WEATHER_FILE, orient="records", indent=2) 
 
     print("Finished! Sample data:")
     print(df.head())
 
 # Entry point
-if __name__ == "__main__":
+if __name__ == "__main__": 
     main()

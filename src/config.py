@@ -10,7 +10,7 @@ NATIONAL_PARK_KEYWORDS = [
 ]
 
 # Parks to explicitly exclude (for strict 63 parks)
-EXCLUDE_PARKS = ["National Parks of New York Harbor"]
+EXCLUDE_PARKS = ["National Parks of New York Harbor", "Wolf Trap National Park for the Performing Arts"]
 
 # File paths
 NATIONAL_PARKS_FILE = "data/national_parks.json"
