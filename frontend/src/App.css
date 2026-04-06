@@ -1,0 +1,46 @@
+/* App.css */
+
+/* Layout */
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.left-panel {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.right-panel {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* Park list */
+.park-item {
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.park-item.selected {
+  background-color: #f0f8ff;
+}
+
+/* Forecast cards */
+.forecast-container {
+  display: flex;
+  gap: 10px;
+}
+
+.forecast-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 120px;
+  text-align: center;
+}
