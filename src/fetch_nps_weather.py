@@ -1,6 +1,7 @@
 # main.py
 import os
 import time
+from altair import condition
 import requests
 import pandas as pd
 from dotenv import load_dotenv
@@ -118,6 +119,35 @@ def fetch_weather(lat: float, lon: float) -> dict:
     except Exception as e:
         print(f"Error fetching weather for {lat},{lon}: {e}")
         return {}
+    
+def flatten_forecast(weather_json: dict) -> dict:
+    """
+    Extracts and flattens the 3-day forecast into a dict with:
+    - Date
+    - High/Low in F and C
+    - Condition text
+    - Condition icon URL
+    """
+    flat_data = {}
+    try:
+        forecast_days = weather_json.get("forecast", {}).get("forecastday", [])
+        for i, day in enumerate(forecast_days, start=1):
+            day_info = day.get("day", {})
+            condition = day_info.get("condition", {})
+            
+            flat_data[f"day{i}_date"] = day.get("date")
+            # Fahrenheit
+            flat_data[f"day{i}_high_f"] = day_info.get("maxtemp_f")
+            flat_data[f"day{i}_low_f"] = day_info.get("mintemp_f")
+            # Celsius
+            flat_data[f"day{i}_high_c"] = day_info.get("maxtemp_c")
+            flat_data[f"day{i}_low_c"] = day_info.get("mintemp_c")
+            # Condition
+            flat_data[f"day{i}_condition"] = condition.get("text")
+            flat_data[f"day{i}_icon"] = condition.get("icon")  # usually a URL
+    except Exception as e:
+        print(f"Error flattening forecast: {e}")
+    return flat_data
 
 # -----------------------------
 # 4️. Add weather to DataFrame
@@ -137,20 +167,21 @@ def add_weather_to_df(df: pd.DataFrame) -> pd.DataFrame:
 
         # Flatten JSON into single row
         if weather_json:
-            flat = pd.json_normalize(weather_json) # Flatten nested JSON into a single row DataFrame
+            flat = flatten_forecast(weather_json) # Flatten nested JSON into a single row DataFrame
         else:
-            flat = pd.DataFrame([{}]) # Empty row if no weather data
+            flat = {} # Empty row if no weather data
 
         weather_rows.append(flat) # Add this park's weather data to the list
         time.sleep(1) # Sleep to respect API rate limits (adjust as needed)
 
     # Combine all weather rows
-    weather_df = pd.concat(weather_rows, ignore_index=True) # Combine list of DataFrames into one DataFrame
+    weather_df = pd.DataFrame(weather_rows) # Create a DataFrame from the list of weather dicts
 
     # Merge with original df
     df = pd.concat([df.reset_index(drop=True), weather_df], axis=1) # Combine original park data with weather data side by side
 
     return df
+
 
 # -----------------------------
 # 5️. Main pipeline
